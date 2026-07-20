@@ -137,7 +137,7 @@ coder-buddy-main/
   - `list_files`: See what's in a directory
   - `get_current_directory`: Get working directory
   - `run_cmd`: Execute shell commands (for running tests, etc.)
-  - **NEW** `run_tests`: Automatically detects project type and runs appropriate test suite
+  - `run_tests`: Automatically detects project type and runs appropriate test suite
 
 ### `agent/prompts.py`
 - Contains the specialized prompts that guide each agent's behavior
@@ -150,7 +150,7 @@ coder-buddy-main/
   - `Plan`: High-level project plan from the planner
   - `TaskPlan`: Detailed implementation tasks from the architect
   - `CoderState`: Tracks progress through implementation steps
-  - **NEW** `TestResult`: Captures test execution outcomes (pass/fail, output, details)
+  - `TestResult`: Captures test execution outcomes (pass/fail, output, details)
 
 ---
 
